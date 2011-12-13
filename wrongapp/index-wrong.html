@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- MIU Project 2 / Christopher Addington / Term: 1112, 01 December 2011 -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>My Pickup League</title>
+
+        <meta name="description" content="Pickup League web app launch page" />
+        <meta name="keywords" content="pickup, sports, league" />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="cleartype" content="on">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<link rel="stylesheet" href="css/styles-wrong.css" />
+        <script src="js/libs/modernizr.custom.min.js"></script>
+    </head>
+    <body>
+    <div data-role="page" id="landing" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h1>Pickup League</h1>
+        </div>
+        <div id="CTA">
+            <a href="additem-wrong.html" id="ctalink">
+                <img id="ctaimg" src="images/CTA.png">
+            </a>
+        </div>
+	<!-- Search -->
+        <div data-role="content">
+	    <form id="search" action="">
+		<div align="center">
+		    <input id="searchbox" type="text" placeholder="Team Name" data-theme="c" />
+		    <input id="gosearch" type="submit" value="Search" data-theme="a">
+		</div>
+	    </form>
+	</div>		
+	<div data-role="content">
+	    <div class="ui-grid-b">
+	        <div class="ui-block-a">
+		    <div class="ui-bar">
+			<a href="#bball" data-theme="a">
+				<img src="images/Basketball_landing.png" />
+			</a>
+		    </div>
+	        </div>
+	        <div class="ui-block-b">
+		    <div class="ui-bar">
+			<a href="#fball" data-theme="a">
+			    <img src="images/Football_10px.png" />
+			</a>
+		    </div>
+	        </div>
+	        <div class="ui-block-c">
+		    <div class="ui-bar">
+			<a href="#rball" data-theme="a"><img src="images/Racquetball_10px.png" /></a>
+		    </div>
+	        </div>	    
+		<div class="ui-block-c">
+		    <div class="ui-bar">
+			<a href="#sball" data-theme="a">
+		           <img src="images/Soccer_ball2.png" />
+			</a>
+		    </div>
+		</div>
+	        <div class="ui-block-b">
+		    <div class="ui-bar">
+			<a href="#tball" data-theme="a">
+			    <img src="images/Tennis_10px.png" />
+			</a>
+		    </div>
+		</div>
+	    </div>
+	</div>
+    </div>
+    <div data-role="page" id="bball" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-theme="a">
+            <h1>Basketball Teams</h1>
+        </div>
+	<div data-role="content">
+		<div data-role="collapsible" data-inset="true" data-collapsed="true" data-theme="a">
+		    <h3>Dayton Ballers</h3>
+		    <p>Team Size: 3</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-01</p>
+		    <p>Notes: Me Tom Joe 3v3 tourney</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Charity</h3>
+		    <p>Team Size: 2</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-02</p>
+		    <p>Notes: Me Scott 2v2 tourney</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>20-somethings</h3>
+		    <p>Team Size: 5</p>
+		    <p>Only Evening Games: Yes</p>
+		    <p>Next available date: 2011-11-03</p>
+		    <p>Notes: Base league 25-35 5v5</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Half-court dunkers</h3>
+		    <p>Team Size: 3</p>
+		    <p>Only Evening Games: Yes</p>
+		    <p>Next available date: 2011-11-04</p>
+		    <p>Notes: Battle of the businesses summer league 3v3</p>
+		</div>
+	    </div>
+	</div>
+    </div>
+    <div data-role="page" id="fball" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h1>Football Teams</h1>
+        </div>
+	<div data-role="content">
+	    <div data-role="collapsible set">
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Winter Madmen</h3>
+		    <p>Team Size: 6</p>
+		    <p>Only Evening Games: Yes</p>
+		    <p>Next available date: 2011-11-05</p>
+		    <p>Notes: Tucson adult football winter 6v6</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Real-life fantasy football</h3>
+		    <p>Team Size: 8</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-06</p>
+		    <p>Notes: Summer flag football 7v7 with sub</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Seattle Seachickens</h3>
+		    <p>Team Size: 4</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-07</p>
+		    <p>Notes: Mark's out next week, need replacement</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>50-yard heroes</h3>
+		    <p>Team Size: 2</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-08</p>
+		    <p>Notes: Saturday morning kicker's practice</p>
+		</div>
+	    </div>
+	</div>
+    </div>
+    <div data-role="page" id="rball" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-theme="a">
+            <h1>Racquetball Teams</h1>
+        </div>
+	<div data-role="content">
+	    <div data-role="collapsible set">
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Cutthroat</h3>
+		    <p>Team Size: 3</p>
+		    <p>Only Evening Games: NYes</p>
+		    <p>Next available date: 2011-11-09</p>
+		    <p>Notes: Tues. night cutthroat match with Glenn Tim</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Base gym ladder match</h3>
+		    <p>Team Size: 1</p>
+		    <p>Only Evening Games: Yes</p>
+		    <p>Next available date: 2011-11-10</p>
+		    <p>Notes: Currently #4, sched match with Gordo for #3</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Doubles champs</h3>
+		    <p>Team Size: 2</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-11</p>
+		    <p>Notes: Monthly doubles tourney team with Jackie</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Ladder climber</h3>
+		    <p>Team Size: 1</p>
+		    <p>Only Evening Games: Yes</p>
+		    <p>Next available date: 2011-11-12</p>
+		    <p>Notes: Unofficial 25-35 gym ladder match</p>
+		</div>
+	    </div>
+	</div>
+    </div>
+    <div data-role="page" id="sball" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-theme="a">
+            <h1>Soccer Teams</h1>
+        </div>
+	<div data-role="content">
+	    <div data-role="collapsible set">
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Weekend warriors</h3>
+		    <p>Team Size: 6</p>
+		    <p>Only Evening Games: Yes</p>
+		    <p>Next available date: 2011-11-13</p>
+		    <p>Notes: Saturday night 6v6 pickup league</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Monterey world cup champs</h3>
+		    <p>Team Size: 2</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-14</p>
+		    <p>Notes: 2v2 world cup bracket</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Winning Ten</h3>
+		    <p>Team Size: 10</p>
+		    <p>Only Evening Games: Yes</p>
+		    <p>Next available date: 2011-11-15</p>
+		    <p>Notes: Wed. night arena league</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Underdogs</h3>
+		    <p>Team Size: 3</p>
+		    <p>Only Evening Games: Yes</p>
+		    <p>Next available date: 2011-11-16</p>
+		    <p>Notes: 3v3 fun league - Thurs. night</p>
+		</div>
+	    </div>
+	</div>
+    </div>
+    <div data-role="page" id="tball" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-theme="a">
+            <h1>Tennis Teams</h1>
+        </div>
+	<div data-role="content">
+	    <div data-role="collapsible set">
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Wimbledon Wanna-be</h3>
+		    <p>Team Size: 1</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-17</p>
+		    <p>Notes: Sat. afternoon casual league</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Federer Fanbois</h3>
+		    <p>Team Size: 2</p>
+		    <p>Only Evening Games: Yes</p>
+		    <p>Next available date: 2011-11-18</p>
+		    <p>Notes: Mon. night racquet club doubles</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Couples Club</h3>
+		    <p>Team Size: 2</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-19</p>
+		    <p>Notes: Church couples doubles matches</p>
+		</div>
+		<div data-role="collapsible" data-collapsed="true" data-theme="a">
+		    <h3>Singles practice</h3>
+		    <p>Team Size: 1</p>
+		    <p>Only Evening Games: No</p>
+		    <p>Next available date: 2011-11-20</p>
+		    <p>Notes: Team for scheduling random singles matches</p>
+		</div>
+	    </div>
+	</div>
+    </div>
+	
+         <!-- Noted out search form while working through the rest.
+	 <form id="search" action="">
+                <div align="center">
+                <input id="searchbox" type="text" placeholder="Team Name" />
+                <input id="gosearch" type="submit" value="Search">
+                </div>
+            </form> -->
+	    
+        <script src="js/json.js" type="text/javascript" ></script>
+        <script src="js/main.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
+    </body>
+</html>
