@@ -116,8 +116,16 @@ label.error{
 	  font-family: Helvetica /*{global-font-family}*/;
 	text-decoration: none;
 }
+img[id=brandlogohome]{
+	margin: 0px;
+	width: 100%;
+}
+img[id=brandlogo]{
+	margin: 0px 0px;
+	width: 60%;
+}
 img[id=ctaimg]{
-    margin: 20px 0;
+    margin: 10px 0 20px;
     width: 100%;
 }
 header h1:nth-child(1) {
