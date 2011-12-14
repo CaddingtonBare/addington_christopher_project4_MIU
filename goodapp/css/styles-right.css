@@ -50,7 +50,7 @@ label.error{
 	color:  	#E2EF35  /*{a-body-color}*/;
 	text-shadow:  0  /*{a-body-shadow-x}*/  1px  /*{a-body-shadow-y}*/  0  /*{a-body-shadow-radius}*/  #141714 /*{a-body-shadow-color}*/;
 	background: #2a692d /*{a-body-background-color}*/;
-	background-image: -webkit-radial-gradient(50px 50px, circle cover, #3e9842 15%, #37863a 30%, #2a692d 60%, #37863a 75%, #3e9842 90%);
+	background-image: -webkit-radial-gradient(50px 50px, circle cover, #3e9842 15%, #37863a 30%, #2a692d 45%, #37863a 60%, #3e9842 100%);
 }
 .ui-body-a,
 .ui-body-a input,
